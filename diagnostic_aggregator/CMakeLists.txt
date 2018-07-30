@@ -2,8 +2,8 @@
 cmake_minimum_required(VERSION 3.5)
 project(diagnostic_aggregator)
 
-# Support C++11
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+# Support C++14
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
 # Load catkin and all dependencies required for this package
 #find_package(catkin REQUIRED diagnostic_msgs pluginlib roscpp rospy xmlrpcpp bondcpp)
